@@ -17,7 +17,7 @@ func NewSettingsUi() *fyne.Container {
 	sample := canvas.NewText("Settings", appColors.Primary)
 	sample2 := canvas.NewText("Settings2", color.Black)
 	settingsContent := container.New(
-		layout.NewHBoxLayout(),
+		layout.NewVBoxLayout(),
 		layout.NewSpacer(),
 		sample,
 		layout.NewSpacer(),
